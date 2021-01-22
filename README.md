@@ -1,5 +1,4 @@
 # Developing-Apps-With-Kotlin
-Application created as a means to learn Kotlin development, coming from a Java background, using the Google Udacity classes from this link as a starting point:
+Small PoC apps developed while following Google's [Developing Android Apps with Kotlin](https://classroom.udacity.com/courses/ud9012), as part of my development path to learning Kotlin.
 
 
-https://classroom.udacity.com/courses/ud9012
