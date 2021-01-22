@@ -3,6 +3,8 @@ Small PoC apps developed while following Google's [Developing Android Apps with 
 
 Notes:
 
+![Android Lifecycle Image](https://developer.android.com/guide/components/images/activity_lifecycle.png)
+
 | Lifecycle Method  | State | called when the Activity |
 | ------------- | ------------- | ---------------------|
 | onCreate() | CREATED | Is first launched (or when it's process is killed, and is re-created from scratch). Layout inflations, one time initializations. |
