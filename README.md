@@ -10,7 +10,7 @@ Notes:
 | onCreate() | CREATED | Is first launched (or when it's process is killed, and is re-created from scratch). Layout inflations, one time initializations. |
 | onStart()  | STARTED | Becomes visible / in the foreground. | 
 | onResume()  | RESUMED | Gains focus. Therefore you can interact with it. | 
-| onPause()  | PAUSED | Loses focus  e.g. 1. when a Dialog pops up 2.for devices like Surface Duo with 2 screens, you can have 2 apps open on separate panes but only one is focused. | 
+| onPause()  | PAUSED | Loses focus  e.g.  when a Dialog pops up or, for devices like Surface Duo with 2 screens, you can have 2 apps open on separate panes but only one can have focus. | 
 | onStop()  | STOPPED | Goes off screen / in the background. | 
 | onDestroy()  | DESTROYED | Mirror of onCreate. Final teardown. | 
 | - | - | -
