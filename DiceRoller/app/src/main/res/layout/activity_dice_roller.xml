@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical"
+    android:orientation="vertical">
+
+    <!--
+        1. add vectorDrawables.useSupportLibrary = true   in app-level gradle file, in android>defaultConfig
+        2. add xmlns:app="http://schemas.android.com/apk/res-auto"
+        3. replace android:src=...   with    app:srcCompat=...
+
+        - 'xmlns:app' is for attributes that come either from your custom code or libraries,
+           NOT from the core Android framework
+
+    -->
+
+    <ImageView
+        android:id="@+id/dice_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        app:srcCompat="@drawable/empty_dice"
+        tools:src="@drawable/empty_dice" />
+
+    <!--
+     The 'tools' namespace is used when you want to find dummy content that is only used when you're
+     previewing the app in the preview pane ( the Design tab in AS )
+
+     Attributes using the 'tools' namespace are removed when compiling the app
+    -->
+
+    <Button
+        android:id="@+id/roll_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/roll" />
+
+</LinearLayout>

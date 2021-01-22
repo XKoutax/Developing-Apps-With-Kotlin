@@ -1,0 +1,27 @@
+
+Lesson 1    - Building your first app.   
+
+        - Dice Roller
+    - Activity & Layout
+    - Adding a Button, findViewById, onClickListener
+    - Adding Image resources
+    - Viewing the gradle file
+
+
+Lesson 2    - Layouts & Constraints
+
+        - About Me
+    - ViewGroups & Hierachy
+    - Layout Editor Basics
+    - Adding & styling a TextView, Scrollview
+    - Data Binding (DEPRECATED)
+
+
+        - ColorMyViews - 
+    - Normal Constraints & Baseline Constraints
+
+
+Lesson 3    - Trivia App - App Navigation
+
+
+Lesson 4    - Activity & Fragment Lifecycle

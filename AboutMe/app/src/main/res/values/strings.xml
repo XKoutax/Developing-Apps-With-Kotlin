@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">AboutMe</string>
+    <string name="star_image_description">image of a little star</string>
+    <string name="bio">Hi. This is my bio.
+
+        \n\nIt is an unnecessarily long bio.
+        \n\nBut it is my bio. It is long and pointless and has no relevant information other than to exemplify the functionality of whatever view is using this long text.
+        \n\nYooooohoo…
+        \n\nStop Scrolling
+
+        \n\nPlease Stop Scrolling
+        \n\nThere is nothing left to read here.
+        \n\nSTOP!!
+
+        \n\nPLEASE STOP SCROLLING!
+        \n\nAre you daft?
+        \n\nFor the love of all that\'s dear to this Earth, please STOP SCROLLING!!!
+    </string>
+</resources>
